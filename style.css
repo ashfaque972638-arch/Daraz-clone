@@ -1,0 +1,412 @@
+body{
+   margin: 0%;
+   background-color: #fae4d8;
+}
+
+.logo{
+    display: flex;
+}
+
+.nav-main{
+    display: flex;
+    background: #f85606;
+    align-items: center;
+    padding: 2% 3%;
+    
+    /* justify-content: space-between; */
+}
+.daraz-logo{
+    display: inline-block;
+    width: 200%;
+    margin: 0%;
+    
+}
+.search-in-daraz{
+    padding: 3% 5%;
+    width: 100%;
+    border: none;
+}
+.fa-magnifying-glass{
+    background-color: white;
+    padding: 4% 2% 4.5% 2%;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 200%;
+    margin-right: 25%;
+    translate: 26% 0%;
+}
+.btns{
+
+    translate: -40% 0%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    justify-content: space-between;
+    gap: 10%;
+}
+
+.home-btn{
+    text-decoration: none;
+    color: white;
+}
+
+.sales-btn{
+    text-decoration: none;
+    color: white;
+}
+
+.products-btn{
+    text-decoration: none;
+    color: white;
+}
+
+.about-btn{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-image{
+
+    width: 100%;
+    height:530px;
+}
+
+
+@media all and (max-width:430px) {
+    
+    .hero-image{
+        height: 350px;
+        width: 184.5%;
+    }
+    .nav-main{
+        padding: 2% 2%;
+        display: flex;width: 180%;
+        justify-content: space-between;
+    }
+    .daraz-logo{
+        width: 90px;
+    }
+    .search-in-daraz{
+        width: 250px;
+        height: 25px;
+        padding: 8px 10px;
+        font-size: 50%;
+        
+    }
+    .search-bar{
+
+        translate: 10% 0%;
+    }
+    .fa-magnifying-glass{
+        padding: 4.2% 2% 4.7% 2%;
+        background-color: rgb(252, 252, 252);
+    }
+    ul{
+        font-size: 100%;
+        translate: -20% 0%;
+    }
+
+}
+
+.cards-section-sales{
+    margin: 0% 3%; margin-top: 4%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(214, 214, 214);
+    padding: 2% 3%;
+    border-radius: 15px;
+
+}
+
+.cards-section-main{
+    background-color: rgb(214, 214, 214);
+    padding: 2% 3%; margin: 0% 3%;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+.cards-section{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cards-section2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+}
+
+.heading1{
+    font-family: Arial, Helvetica, sans-serif;
+     margin: 0% 3%; margin-top: 10%;
+}
+
+.card-1{
+    width: 20%;
+    height: 335px;
+    /* border: 5px solid black; */
+    background-color: white;
+    border-radius: 15px;
+}
+.air-buds{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.card-title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 5%; translate: 0% -15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+.badge1{
+    background-color: rgb(16, 15, 15);
+    color: white;
+    padding: 2% 4%;
+    border-radius: 15px;
+    font-size: 90%;
+
+}
+
+
+.old-price{
+    text-decoration: line-through;
+    color: grey; translate: 0% 140%;
+}
+
+.card-price{
+    display:flex; justify-content: space-between;
+    align-items:center; translate: 0% -50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0% 5%;
+    font-size: 90%;
+}
+
+.card-btn{
+    font-size: 105%; margin-top: 15%;
+    background-color: #f85606;
+    color: white; padding: 2% 4%;
+    border: none; border-radius: 5px;
+}
+
+.card-1:hover{
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+}
+.card5-price{
+    display:flex; justify-content: space-between;
+    align-items:center; translate: 0% -60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0% 5%;
+    font-size: 90%;
+}
+.about{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2% 10%;
+    text-align: justify;
+    background-color: #faf1ed;
+    margin: 0% 3%;
+    border-radius: 15px;
+    margin-top: 14%;
+}
+.about-heading{
+
+    color: #f85606;
+    text-align: center;
+}
+
+.main-footer{
+    background-color: white;
+    height: 200px; padding: 2% 3%;
+    margin-top: 20%;
+}
+
+.footer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.countries{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footer-right{
+    margin-left: 20%;
+    translate: 0% -40%;
+}
+
+.social-media-logo{
+    display: flex;
+}
+
+.logo-footer{
+    width: 10%;
+    margin-left: 3%;
+}
+
+.daraz-international{
+    margin-left: 2%;
+    translate: 0% 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.follow-us{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: 5%;
+}
+
+.country{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.country-flags{
+
+    width: 60%;
+    height: 60%;
+}
+
+.div-bangladesh{
+    margin-left: 10%;
+}
+
+.div-srilanka{
+    margin-left: 10%;
+}
+
+.div-myanmar{
+    margin-left: 10%;
+}
+
+.div-nepal{
+    margin-left: 10%;
+}
+
+
+
+@media all and (max-width:430px){
+
+   .cards-section-sales{
+    margin: 0% 4%; margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(214, 214, 214);
+    padding: 2% 3%;
+    width: 170%;
+    border-radius: 15px;
+
+}     
+.card-1{
+    width: 100%;
+    height: 850px;
+    /* border: 5px solid black; */
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 5%;
+}
+ 
+.heading1{
+    margin-left: 4%;
+    margin-top: 30%;
+    font-size: 250%;
+}
+
+.cards-section-main{
+    background-color: rgb(214, 214, 214);
+    padding: 2% 3%; margin: 0% 4%;
+    border-radius: 15px;
+     width: 170%;
+    margin-top: 10%;
+}
+
+.cards-section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.cards-section2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.about{
+    text-align: center; width: 155%; height: ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2% 10%;
+    text-align: justify;
+    background-color: #faf1ed;
+    margin: 0% 4%;
+    border-radius: 15px;
+    margin-top: 60%;
+}
+
+.para-2{
+    font-size: 130%;
+}
+
+.main-footer{
+    background-color: white;
+    height: 200px; width: 178%;
+    padding: 2% 3%;margin-top: 20%;
+}
+
+.footer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.daraz-international{
+    display: none;
+}
+
+.countries{
+    display: none;
+}
+
+.footer-right{
+    translate: 0% 20%;
+}
+
+.follow-us{
+    text-align: center;
+    margin-right: 30%;
+}
+
+.social-media-logo{
+    display: flex;
+    margin-left: 9%;
+}
+
+.logo-footer{
+    width: 8%;
+    margin-left: 5%;
+}
+
+.daraz-international{
+    margin-left: 2%;
+    translate: 0% 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.follow-us{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+}
